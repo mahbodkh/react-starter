@@ -1,0 +1,23 @@
+.navMenuStyle{
+    /*background: #282c34;*/
+    /*!*background: #162434;*!*/
+    /*height: 60px;*/
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    color: aliceblue;
+}
+
+.navMenuStyle ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.navMenuStyle li {
+    position: relative;
+}
+
